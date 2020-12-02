@@ -9,7 +9,7 @@ def to_baby(in_string):
         .replace('l', 'w')
         .replace('ing', 'in')
         .replace('th', 'd')
-        .replace(' de ', ' da ')
+        .replace('de', 'da')
     )
 
 @app.route('/v1')
