@@ -15,5 +15,3 @@ def to_baby(in_string):
 @app.route('/v1')
 def main():
     return({'translated': to_baby(request.args.to_dict()['text'])})
-
-app.run()
